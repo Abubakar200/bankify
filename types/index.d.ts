@@ -218,9 +218,9 @@ declare interface RightSidebarProps {
   banks: Bank[] & Account[];
 }
 
-declare interface SiderbarProps {
-  user: User;
-}
+// declare interface SiderbarProps {
+//   user: User;
+// }
 
 declare interface RecentTransactionsProps {
   accounts: Account[];
@@ -246,9 +246,9 @@ declare interface CategoryProps {
   category: CategoryCount;
 }
 
-declare interface DoughnutChartProps {
-  accounts: Account[];
-}
+// declare interface DoughnutChartProps {
+//   accounts: Account[];
+// }
 
 declare interface PaymentTransferFormProps {
   accounts: Account[];
